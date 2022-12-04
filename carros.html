@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carros & Cia</title>
+    <style>
+        body{
+            margin: 0 ;
+        }
+        /*inicio Cabeçalho*/
+        header{
+            width: 100%;
+            text-align: center;
+            background-color: black;
+            border-bottom: 1px solid rgb(90, 59, 2);
+            position: fixed;
+        }
+
+        header h1, header ul, header a{
+            margin: 0;
+            padding: 10px 20px;
+            color: orange;
+        }
+
+        header ul{
+            display: flex;
+            justify-content: center;
+        }
+
+        .titulo{
+            text-decoration: none;
+        }
+        /*fim Cabeçalho*/
+        /*Main*/
+        main{
+            text-align: center;
+        }
+
+        .banner img{
+            width: 100%;
+            height: 100vh;
+        }
+
+        article{
+            width: 60%;
+            margin: auto;
+        }
+
+        span{
+            color: orange;
+            font-weight: bold;
+        }
+
+        .descricao{
+            text-align: center;
+        }
+
+        article a{
+            color: orange;
+        }
+        
+        article p{
+            font-size: 14px;
+            text-align: justify;
+        }
+
+       article img{
+            width: 350px;
+            height: 250px;
+            border-radius: 5px;
+       } 
+
+       #sobre, #consultores, #endereco{
+            padding-top:100px ;
+       }
+
+       /*Fim main*/
+       /*Inicio Rodape*/
+       footer{
+        background-color: black;
+        text-decoration: none;
+        height: 50px;
+        text-align: center;
+       }
+
+       footer p{
+            color: white;
+            padding: 10px;
+       }
+
+       footer span{
+            color: orange;
+       }
+       /*rodape*/
+    </style>
+</head>
+<body>
+    <header>
+        <h1><a href="carros.html"  class="titulo">Carros & Cia.</a></h1>
+        <nav>
+            <ul type="none">
+                <li><a href="#sobre">Sobre</a></li>
+                <li><a href="#consultores">Consultores</a></li>
+                <li><a href="#endereco">Endereço</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="banner">
+            <img src="img/banner.jpg" alt="Capa">
+        </section>
+        <section>
+            <article id="sobre">
+                <p class="descricao">O carro dos seus sonhos está aqui</p>
+                <h2>Conquiste seu carro novo hoje</h2>
+                <img src="img/carro-assinatura.jpg" alt="bmw-amarela">
+                <p>Com <span>15 anos</span> de atenção e dedicação, estamos aqui para oferecer segurança e tranquilidade no momento da compra
+                    do seu veículo. Isso porque trabalhamos sempre para atender as necessidades dos clientes e suas famílias, oferecendo <span>produtos</span> e <span>serviços de qualidade</span>. Procuramos sempre as melhores condições
+                    para nossos clientes, pensamos além do momento da compra, construindo uma relação de confiança e fidelidade.
+                </p>
+            </article>
+            <article id="consultores">
+                <h2>Consultores</h2>
+                <img src="img/consultores.jpg" alt="mão-chaves">
+                <p>A <span>Carros & Cia.</span> conta com um time de profissionais qualificados com vários anos de experiência no
+                    mercado. Entre em contato conosco, nossos consultores terão prazer em atendê-lo. <a href="#"><span>Falar com os consultores</span></a></p>
+            </article>
+            <article id="endereco">
+                <h2>Onde estamos</h2>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7314.908528320291!2d-46.63734987375194!3d-23.552123153639048!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59aa220b74bd%3A0x6412aad263604c19!2zU8OpLCBTw6NvIFBhdWxvIC0gU1A!5e0!3m2!1spt-BR!2sbr!4v1660778780730!5m2!1spt-BR!2sbr" width="600" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>               
+            </article>
+        </section>
+    </main>
+    <footer>
+        <p>Ficou interessado? Venha nos conhecer ou se tiver dúvidas entre em <a href="#"><span>contato</span></a> conosco.</p>
+    </footer>
+</body>
+</html>
